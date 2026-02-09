@@ -1,0 +1,6 @@
+[tasks.build]
+description = "build the app"
+run = "zig build -p ."
+
+[tools]
+zig = "latest"
